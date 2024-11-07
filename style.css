@@ -66,12 +66,13 @@ BOOKMARKS
     color:#000000;
     transition:.15s;
     position:relative;
-    top:-200px;
+   
   
  }
  .bookmarks i:hover{
     font-size:72px;
     position:relative;
  }
+ 
  
  
