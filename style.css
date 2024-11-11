@@ -45,15 +45,17 @@ form{
     display:inline-block;
  }
  .search-bar{
-    width:80%;
+    width:75%;
     outline-color: #000;
+    border: 5px  solid #000;
  }
  .submit-button{
     width:15%;
     background:#FFFFFF;
     color:#000;
-    font-size: 50px;
+    font-size: 40px;
     font-weight: bold;
+    
  }
  
  
@@ -73,12 +75,14 @@ BOOKMARKS
  }
  .bookmarks i{
     font-size:42px;
-    margin:0 20px;
+    margin:300px auto 60px auto;
     color:#000000;
     transition:.15s;
-    margin: 0 auto;
     position:relative;
+    margin: 0 auto;
     top:400px;
+   
+    
   }
  
     .bookmarks i:hover{
@@ -94,12 +98,34 @@ BOOKMARKS
     }
 
 
-    /*
+   /*
 =================================================
 POST-IT NOTE (IN CSS)
 =================================================
 */
+#note{
+   opacity: 0;
+   width:250px;
+   height:250px;
+   resize: none;
+   background:#F3F19D;
+   padding:15px;
+   border:none;
+   position: absolute;
+   bottom:50px;
+   left:50px;
+   font-family:sans-serif;
+  }
+
+  /*
+=================================================
+CALCULATOR (IN CSS)
+=================================================
+*/
+
 #calc{
    opacity:0;
-   }
+}
+  
+  
   
